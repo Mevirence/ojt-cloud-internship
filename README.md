@@ -1,2 +1,2 @@
 # ojt-cloud-internship
-OJT internship repository for a 6-week cloud computing practicum at Lamina Studios. Covers AWS infrastructure, Linux administration, VPC networking, containerization with Docker, and Kubernetes orchestration.
+This repository documents my On-the-Job Training (OJT) at Lamina Studios as part of the BSCS program at Bicol University. Over 6 weeks, I worked through hands-on cloud infrastructure tasks covering AWS core services, Linux administration, VPC and network security, relational databases on RDS, Docker containerization, and Kubernetes orchestration — while concurrently preparing for the AWS Certified Cloud Practitioner exam.
