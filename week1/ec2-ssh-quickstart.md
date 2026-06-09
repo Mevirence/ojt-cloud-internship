@@ -1,4 +1,4 @@
-# EC2 SSH Quickstart Guide
+# EC2 SSH Quickstart Guide - AWS Version
 A step-by-step guide to launching an EC2 instance on AWS and connecting to it via SSH.
 
 ---
