@@ -9,7 +9,8 @@
 
 ACTION="$1"
 INSTANCE_ID="$2"
-REGION="ap-southeast-1"   # change to your region
+REGION="ap-southeast-1"   # Change to needed region (ap-southeast-2 for Sydney, ap-southeast-1 for Singapore), putting it here so I can just copy and paste
+
 
 # ── Input validation ──────────────────────────
 if [[ -z "$ACTION" || -z "$INSTANCE_ID" ]]; then
