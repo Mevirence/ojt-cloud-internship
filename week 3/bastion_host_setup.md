@@ -8,7 +8,7 @@ A practical guide to setting up a bastion host on AWS and securely accessing a p
 
 A **bastion host** (also called a jump box) is a regular EC2 instance that lives in a **public subnet** and acts as the single controlled entry point into your private network.
 
-The name comes from military architecture — a bastion is a fortified point of a castle wall designed to face the outside and be heavily defended. In AWS, it serves the same purpose: one exposed, hardened entry point that protects everything behind it.
+The name comes from military architecture, a bastion is a fortified point of a castle wall designed to face the outside and be heavily defended. In AWS, it serves the same purpose: one exposed, hardened entry point that protects everything behind it.
 
 ```
 Internet
@@ -125,7 +125,7 @@ ssh -A -i ~/.ssh/your-key.pem ubuntu@<bastion-public-ip>
 ```
 
 - `-i` — specifies the key file
-- `-A` — enables agent forwarding (carries your key into the session)
+- `-A` — enables agent forwarding (carries your key into the session, this was what I needed to fix my issue of not getting into the private server)
 
 ---
 
